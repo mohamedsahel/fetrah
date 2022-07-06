@@ -9,9 +9,12 @@ SF__DOMReady(function () {
   const el = document.createElement('div')
 
   // Options
-  const url = SF__currentScript.getAttribute('url') || 'http://fetrah.org'
+  const url =
+    SF__currentScript.getAttribute('url') ||
+    'https://www.facebook.com/fetrah.org/'
   const title = SF__currentScript.getAttribute('title') || 'ادعم فطرة'
-  const position = SF__currentScript.getAttribute('position') || 'left'
+  const position =
+    SF__currentScript.getAttribute('position') || 'left'
 
   // Set custom title
   el.title = title
