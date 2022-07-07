@@ -15,11 +15,11 @@ SF__DOMReady(function () {
   const styles = {
     right: {
       large: `width: 260px; height: 74px;  right: -80px; bottom: 20px; transform: rotate(135deg); background: linear-gradient(-360deg, ${skyBlueColor} 50%, ${pinkColor} 50%)`,
-      small: `width: 200px; height: 64px;  right: -60px; bottom: 25px; transform: rotate(135deg); background: linear-gradient(-180deg, ${skyBlueColor} 50%, ${pinkColor} 50%)`,
+      small: `width: 200px; height: 64px;  right: -60px; bottom: 10px; transform: rotate(135deg); background: linear-gradient(-180deg, ${skyBlueColor} 50%, ${pinkColor} 50%)`,
     },
     left: {
       large: `width: 260px; height: 74px;  left: -75px; bottom: 20px; transform: rotate(45deg); background: linear-gradient(-180deg, ${skyBlueColor} 50%, ${pinkColor} 50%)`,
-      small: `width: 200px; height: 64px;  left: -60px; bottom: 25px; transform: rotate(45deg); background: linear-gradient(-180deg, ${skyBlueColor} 50%, ${pinkColor} 50%)`,
+      small: `width: 200px; height: 64px;  left: -60px; bottom: 10px; transform: rotate(45deg); background: linear-gradient(-180deg, ${skyBlueColor} 50%, ${pinkColor} 50%)`,
     },
   }
 
